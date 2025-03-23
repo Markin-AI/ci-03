@@ -20,7 +20,7 @@
 3. Сделайте так, чтобы binary был доступен через вызов в shell (или поменяйте переменную PATH, или любой другой, удобный вам способ).
 4. Проверьте `sonar-scanner --version`.
 
-![1](https://github.com/Markin-AI/ci-04/blob/main/img/1.png)
+![1](https://github.com/Markin-AI/ci-03/blob/main/img/1.png)
 
 5. Запустите анализатор против кода из директории [example](./example) с дополнительным ключом `-Dsonar.coverage.exclusions=fail.py`.
 6. Посмотрите результат в интерфейсе.
@@ -28,7 +28,7 @@
 8. Запустите анализатор повторно — проверьте, что QG пройдены успешно.
 9. Сделайте скриншот успешного прохождения анализа, приложите к решению ДЗ.
 
-![2](https://github.com/Markin-AI/ci-04/blob/main/img/2.png)
+![2](https://github.com/Markin-AI/ci-03/blob/main/img/2.png)
 
 ## Знакомство с Nexus
 
@@ -57,7 +57,7 @@
 3. Удалите из `apache-maven-<version>/conf/settings.xml` упоминание о правиле, отвергающем HTTP- соединение — раздел mirrors —> id: my-repository-http-unblocker.
 4. Проверьте `mvn --version`.
 
-![3](https://github.com/Markin-AI/ci-04/blob/main/img/3.png)
+![3](https://github.com/Markin-AI/ci-03/blob/main/img/3.png)
 
 5. Заберите директорию [mvn](./mvn) с pom.
 
@@ -66,11 +66,11 @@
 1. Поменяйте в `pom.xml` блок с зависимостями под ваш артефакт из первого пункта задания для Nexus (java с версией 8_282).
 2. Запустите команду `mvn package` в директории с `pom.xml`, ожидайте успешного окончания.
 
-![4](https://github.com/Markin-AI/ci-04/blob/main/img/4.png)
+![4](https://github.com/Markin-AI/ci-03/blob/main/img/4.png)
 
 3. Проверьте директорию `~/.m2/repository/`, найдите ваш артефакт.
 
-![5](https://github.com/Markin-AI/ci-04/blob/main/img/5.png)
+![5](https://github.com/Markin-AI/ci-03/blob/main/img/5.png)
 
 4. В ответе пришлите исправленный файл `pom.xml`.
 
