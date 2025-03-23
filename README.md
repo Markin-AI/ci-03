@@ -46,6 +46,8 @@
 3. Проверьте, что все файлы загрузились успешно.
 4. В ответе пришлите файл `maven-metadata.xml` для этого артефекта.
 
+[maven-metadata.xml](https://github.com/Markin-AI/ci-03/blob/main/maven-metadata.xml)
+
 ### Знакомство с Maven
 
 ### Подготовка к выполнению
@@ -71,5 +73,7 @@
 ![5](https://github.com/Markin-AI/ci-04/blob/main/img/5.png)
 
 4. В ответе пришлите исправленный файл `pom.xml`.
+
+[pom.xml](https://github.com/Markin-AI/ci-03/blob/main/pom.xml)
 
 ---
